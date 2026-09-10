@@ -60,12 +60,13 @@ AWS is a suitable choice for a global e-commerce company because it provides a l
 * **Amazon RDS** – For managing the e-commerce database.
 
 ---
+# Multi-Cloud Decision Matrix
 
-# Summary of Recommendations
-
-| Client                                   | Recommended Platform  | Main Reason                                                     |
-| ---------------------------------------- | --------------------- | --------------------------------------------------------------- |
-| **Client A – Startup Company**           | AWS                   | Flexible, scalable, and wide range of services                  |
-| **Client B – University**                | Microsoft Azure       | Strong integration with Microsoft technologies                  |
-| **Client C – AI Research Company**       | Google Cloud Platform | Strong AI, ML, data analytics, and computing capabilities       |
-| **Client D – Global E-Commerce Company** | AWS                   | Global infrastructure, high availability, and automatic scaling |
+| Business Requirement        | Recommended Platform        | Justification                                                                                                                                   |
+| --------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Startup Company**         | AWS                         | AWS provides flexible and scalable services that allow startups to begin with smaller resources and increase capacity as the business grows.    |
+| **Enterprise Organization** | AWS                         | AWS offers a broad range of services, strong security features, and global infrastructure that can support complex enterprise workloads.        |
+| **Microsoft Environment**   | Microsoft Azure             | Azure provides strong integration with Windows Server, Microsoft 365, Active Directory, and other Microsoft technologies.                       |
+| **AI / Machine Learning**   | Google Cloud Platform (GCP) | GCP provides strong Artificial Intelligence, Machine Learning, data analytics, and high-performance computing services.                         |
+| **Kubernetes Deployment**   | Google Cloud Platform (GCP) | GCP provides Google Kubernetes Engine (GKE), a managed Kubernetes service that makes it easier to deploy and manage containerized applications. |
+| **Global Web Application**  | AWS                         | AWS provides global infrastructure, load balancing, automatic scaling, and other services that can support highly available web applications.   |
